@@ -16,7 +16,7 @@ const MaisMotivos = () => {
                     src="/img/2.png"
                     alt=""
                     width={70}
-                    height={0}
+                    height={70}
                     className=""
                     />
                 </span>
@@ -31,7 +31,7 @@ const MaisMotivos = () => {
                     src="/img/2.png"
                     alt=""
                     width={70}
-                    height={0}
+                    height={70}
                     className=""
                     />
                 </span>
@@ -46,7 +46,7 @@ const MaisMotivos = () => {
                     src="/img/2.png"
                     alt=""
                     width={70}
-                    height={0}
+                    height={70}
                     className=""
                     />
                 </span>
@@ -61,7 +61,7 @@ const MaisMotivos = () => {
                     src="/img/2.png"
                     alt=""
                     width={70}
-                    height={0}
+                    height={70}
                     className=""
                     />
                 </span>

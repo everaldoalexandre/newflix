@@ -10,7 +10,7 @@ export default async function FilmesEmAlta () {
       <div className="overflow">
         <ul className="flex w-full justify-center items-center pt-3">
           {filmes.map((filme, index) => (<FilmeEmAlta
-          key = {filme.id ?? index}
+          key = {index}
           filme = {filme}/>))}
         </ul>
       </div>
