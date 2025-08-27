@@ -13,7 +13,7 @@ function FilmesEmAlta () {
     setLoading(true);
     setError(null);
 
-    fetch('/api/filmes')
+    fetch('/api/filmes_api')
     .then(response => response.json())
     .then(data => { 
       if (Array.isArray(data)) {

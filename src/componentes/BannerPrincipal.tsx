@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Assinatura from "./Assinatura";
+import MenuDrop from "./MenuDrop";
 
 const BannerPrincipal = () => {
     return (
@@ -19,7 +20,7 @@ const BannerPrincipal = () => {
                 />
             </div>
             <div className="w-1/2 flex justify-end gap-4">
-                <button className="text-white text-1xl font-bold border-2 border-gray-500 bg-black/40 rounded-md pt-1 pb-1 pl-4 pr-4">Português v</button>
+                <MenuDrop />
                 <button className="bg-red-600 text-1xl pt-1 pb-1 pl-4 pr-4 rounded-md text-white font-bold hover:bg-red-700">Entrar</button>
             </div>
             </div>

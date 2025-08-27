@@ -21,22 +21,22 @@ export default function DropdownMenu() {
     <div className="relative inline-block text-left" ref={menuRef}>
       <button
         onClick={() => setOpen(!open)}
-        className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+        className="bg-black-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
       >
-        Menu ▼
+        Português ▼
       </button>
 
       {open && (
-        <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10">
-          <ul className="py-1 text-gray-700">
+        <div className="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-black ring-1 ring-black ring-opacity-4 z-50">
+          <ul className=" text-gray-700 text-white">
             <li>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Perfil</a>
+              <a href="#1" className="block w-full px-4 py-2 hover:bg-gray-30">Perfil</a>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Configurações</a>
+              <a href="#2" className="block w-full px-4 py-2 hover:bg-gray-100">Configurações</a>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:bg-gray-100">Sair</a>
+              <a href="#3" className="block w-full px-4 py-2 hover:bg-gray-100">Sair</a>
             </li>
           </ul>
         </div>
